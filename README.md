@@ -43,16 +43,16 @@ ADMonitor is an open-source Active Directory changes tracking tool. It gives you
 
 
 ## FAQ
-### myADMonitor cannot find a close domain controller automatically
+### ADMonitor cannot find a close domain controller automatically
 myADMonitor will try to find a domain controller in the same AD Site, of no one is found, then it will try to reach any Domain Controller in the Domain. If none of the Domain Controllers are reachable, it will close. However, if you prefer to configure a fixed Domain Controller, edit the config.ini file tiwh your prefered Domain Controller.
 
-### Does myADMonitor require special permissions to run?
+### Does ADMonitor require special permissions to run?
 No, only read-only should be enough for most of the cases. 
 
-### Does myADMonitor track changes on passwords?
+### Does ADMonitor track changes on passwords?
 Password changes are tracked because pwdLastSet and whenChanged attributes are changed, but password values (hashes) are not tracked
 
-### How myADMonitor works internally?
+### How ADMonitor works internally?
 - On initialization a reachable Domain Controller is found
 - Schema attributes are enumerated and stored to parse the multiple attributes' syntax
 - Active Directory is queried for all USN from 0 up to the latest USN detected.
