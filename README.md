@@ -1,19 +1,10 @@
 <h1 align="center">
   <br>
-  myADMonitor
+  ADMonitor
   <br>
 </h1>
 
-myADMonitor is an open-source Active Directory changes tracking tool. It gives you almost real-time visibility on changes commited to your Active Directory domain.
-
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/mihemihe/myADMonitor/total?style=plastic&logo=github)
-![GitHub License](https://img.shields.io/github/license/mihemihe/myADMonitor)
-![Static Badge](https://img.shields.io/badge/.NET-8.0-512BD4)
-![Static Badge](https://img.shields.io/badge/Typescript-3178C6?logo=typescript&logoColor=FFF)
-
-
-
-
+ADMonitor is an open-source Active Directory changes tracking tool. It gives you almost real-time visibility on changes commited to your Active Directory domain.
 
 ![alt text](/blob/Example01v06.png?raw=true)
 
